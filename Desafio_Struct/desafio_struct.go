@@ -43,4 +43,6 @@ func main() {
 	}
 	fmt.Println(string(rangerJson))
 
+	fmt.Printf("Fizemos 2 structs %v, e %v", Cruze, Ranger)
+
 }
