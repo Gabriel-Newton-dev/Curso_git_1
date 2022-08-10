@@ -4,20 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Struct</title>
+    <title>Comandos do GIT</title>
 </head>
 <body>
     <h1> Comandos do Git </h1>
-    <h3>Git status - Para ver o que tem de pendentes
-        Git add . - Para add todos os arquivos
-        Git commit -a -m “mensagem” - Para poder commitar os arquivos
-        Git push - para enviar todos os arquivos commitados para o servidor  ( git hub )
+    <h3><p>Git status - Para ver o que tem de pendentes</p>
+       <p>Git add . - Para add todos os arquivos</p> 
+       <p>Git commit -a -m “mensagem” - Para poder commitar os arquivos</p> 
+       <p>Git push - para enviar todos os arquivos commitados para o servidor  ( git hub )</p> 
     </h3>
-    <p></p>
-
-
-
-
-    </h3>
+    <br><br>
+    <p><h1><color: red>No caso do repositório ainda não existir no GitHub iremos seguir esse passo-a-passo abaixo:</h1></p>
+    <h2>
+        <p>1 - De um GIT INIT na pasta que vc deseja que receba comandos do git, se vc clonou repositório que já estava no gitHub ou gitLab não tem necessidade de fazer isso.</p>      
+        <p>2 - Git status - para ver o status</p> 
+        <p>3 - git add + nome do arquivos ou pasta que vc quer add</p>
+        <br>
+        <p>Ex: git add teste.txt</p>
+        Obs: se vc der o comando “ git add .” Ele irá add tudo. 
+        <br>
+        <p>4 - git commit -m + nome que desejamos colocar </p>
+        
+        
+        Essa flag -m : é um comando para colocação de mensagem.  
+        
+        Ex: git comia - m “firas commit”
+        
+        <p>5 - git branch -M master - para criar uma branch master</p>
+        <br>
+        <p>6 - criar uma origem ao meu projeto, ou seja, para ele se comunicar com Git</p>
+        
+        
+        
+        Git remote add origin git@github.com:Gabriel-Newton-dev/Curso_git_1
+        
+        Para se comunicar com o gitHub, sincronizar
+                    
+        <p> 7 - Git push -u origin master</p>
+        <br>
+        <p>8 - git remote -v  : para ver se as origens estão corretas </p>        
+        QUANDO O PROJETO JÁ ESTÁ NO GIT E NO GITHUB TEMOS APENAS QUE ATUALIZAR AS INFORMAÇÕES OU ADD ALGUM ARQUIVO CRIADO
+        <br>
+        1 - Se criar uma outra pasta dentro do projeto. 
+        <br>
+        - Git status - para ver o que tem de pendente para add ou commitar.
+        <br>
+        - Git add . - se quiser add tudo ou - git add + nome do arquivo que quer add
+        <br>
+        - Quando der Git status novamente vai ver que a fala dele terá mudado
+        <br>
+        <p>obs: no vsCode</p>
+        . podemos ver quando criamos um novo arquivo ele fica com a flag U
+        . Quando fazemos alguma alteração em algum arquivo que já esta commitado no projeto - fala M
+        . Quando rodamos o comando git add - fica com a flag A, ou seja, pronta para Commitar
+    </p></h2>
 </body>
 </html>
