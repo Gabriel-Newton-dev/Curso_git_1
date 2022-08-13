@@ -1,1 +1,2 @@
 Nessa Branch First_repo, nos testamos a criação de uma nova branch, usamos o git checkout para mudarmos de branch. 
+Usamos também o comando git merge e o nome da branch para unir a branch firts_repo a branch master
